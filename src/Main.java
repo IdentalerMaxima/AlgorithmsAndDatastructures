@@ -4,18 +4,18 @@ public class Main {
         /*
                                     STACK TESTS
 
-        Stack.createStack(3);
-        System.out.println("Is the stack empty?: " + Stack.isEmpty());
-        System.out.println("Is the stack full?: " + Stack.isFull());
+        DataStructures.Stack.createStack(3);
+        System.out.println("Is the stack empty?: " + DataStructures.Stack.isEmpty());
+        System.out.println("Is the stack full?: " + DataStructures.Stack.isFull());
 
-        Stack.push(1);
-        Stack.push(2);
-        Stack.push(3);
-        Stack.printStack();
+        DataStructures.Stack.push(1);
+        DataStructures.Stack.push(2);
+        DataStructures.Stack.push(3);
+        DataStructures.Stack.printStack();
 
-        Stack.pop();
-        System.out.println("Is the stack empty?: " + Stack.isEmpty());
-        System.out.println("Is the stack full?: " + Stack.isFull());
+        DataStructures.Stack.pop();
+        System.out.println("Is the stack empty?: " + DataStructures.Stack.isEmpty());
+        System.out.println("Is the stack full?: " + DataStructures.Stack.isFull());
          */
 
     }

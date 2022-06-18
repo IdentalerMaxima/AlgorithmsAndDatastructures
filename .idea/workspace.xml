@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cd3745d-c053-4e8f-b8f8-1918409712d9" name="Changes" comment="Finished and tested stack data structure with javadoc.">
-      <change beforePath="$PROJECT_DIR$/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack.java" afterDir="false" />
+    <list default="true" id="6cd3745d-c053-4e8f-b8f8-1918409712d9" name="Changes" comment="Updated stack description.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655568142965</updated>
-      <workItem from="1655568144496" duration="3856000" />
+      <workItem from="1655568144496" duration="4572000" />
     </task>
     <task id="LOCAL-00001" summary="Finished and tested stack data structure with javadoc.">
       <created>1655571981060</created>
@@ -61,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655571981060</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated stack description.">
+      <created>1655572164475</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655572164475</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,6 +89,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished and tested stack data structure with javadoc." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished and tested stack data structure with javadoc." />
+    <MESSAGE value="Updated stack description." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated stack description." />
   </component>
 </project>

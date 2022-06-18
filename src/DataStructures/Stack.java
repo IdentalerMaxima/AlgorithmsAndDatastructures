@@ -1,3 +1,5 @@
+package DataStructures;
+
 /**
  * A stack is a linear data structure where the last input
  * is the first output. (LIFO)
@@ -68,7 +70,7 @@ public class Stack {
         if (!isEmpty()) {
             topOfStack--;
         } else {
-            System.out.println("Stack is empty");
+            System.out.println("DataStructures.Stack is empty");
         }
     }
 
@@ -85,7 +87,7 @@ public class Stack {
             topOfStack++;
             array[topOfStack] = numberPushed;
         } else {
-            System.out.println("Stack is full!");
+            System.out.println("DataStructures.Stack is full!");
         }
     }
 
