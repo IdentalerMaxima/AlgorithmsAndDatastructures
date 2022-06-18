@@ -3,6 +3,13 @@
  * is the first output. (LIFO)
  * Operations are:
  * -Pop, push, top, isEmpty, isFull, createStack.
+ *
+ * Its time complexity, given it's an array is O(1)
+ *
+ * Applications can be:
+ * -Reversing a word (LIFO)
+ * -Compilers
+ * -Browsers
  */
 
 public class Stack {
