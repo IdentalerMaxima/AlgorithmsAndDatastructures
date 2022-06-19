@@ -14,7 +14,7 @@ package DataStructures;
  * -Browsers
  */
 
-public class Stack {
+public abstract class Stack {
     private static int array[];
     private static int stackCapacity;
     private static int topOfStack;

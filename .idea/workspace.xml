@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cd3745d-c053-4e8f-b8f8-1918409712d9" name="Changes" comment="Updated stack description.">
+    <list default="true" id="6cd3745d-c053-4e8f-b8f8-1918409712d9" name="Changes" comment="Algorithms and Data structures packages added to src.&#10;Moved stack to ds">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataStructures/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructures/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +32,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -54,7 +58,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655568142965</updated>
-      <workItem from="1655568144496" duration="4572000" />
+      <workItem from="1655568144496" duration="6214000" />
+      <workItem from="1655584541079" duration="4332000" />
+      <workItem from="1655644947894" duration="1247000" />
     </task>
     <task id="LOCAL-00001" summary="Finished and tested stack data structure with javadoc.">
       <created>1655571981060</created>
@@ -70,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655572164475</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Algorithms and Data structures packages added to src.&#10;Moved stack to ds">
+      <created>1655572804414</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655572804414</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +103,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished and tested stack data structure with javadoc." />
     <MESSAGE value="Updated stack description." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated stack description." />
+    <MESSAGE value="Algorithms and Data structures packages added to src.&#10;Moved stack to ds" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algorithms and Data structures packages added to src.&#10;Moved stack to ds" />
   </component>
 </project>
