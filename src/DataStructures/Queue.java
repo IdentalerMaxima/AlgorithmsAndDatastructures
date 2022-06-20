@@ -5,6 +5,13 @@ package DataStructures;
  *
  * Operations:
  * -Create queue, isEmpty, isFull, peek, enqueue, dequeue, print queue.
+ *
+ * Time complexity for operations is O(1), pr O(n) depending.
+ *
+ * Applications can be:
+ * -CPU task
+ * -IO operations
+ * -Call centers
  */
 public abstract class Queue {
     public static int array[];
