@@ -1,5 +1,4 @@
-import DataStructures.Queue;
-import DataStructures.Queues.SimpleQueue;
+import DataStructures.Queues.Deque;
 
 public class Main {
     public static void main(String[] args) {
@@ -23,7 +22,7 @@ public class Main {
 
                                     //QUEUE TESTS
 
-        //Simple Queue
+                                            //Simple Queue
 
         /*DataStructures.Queues.SimpleQueue.createQueue(2);
         DataStructures.Queues.SimpleQueue.enqueue(1);
@@ -32,20 +31,68 @@ public class Main {
 
         DataStructures.Queues.SimpleQueue.print();*/
 
-        //Circular queue
+                                            //Circular queue
 
-        /*DataStructures.Queue.createQueue(3);
+        /*DataStructures.Queues.Queue.createQueue(3);
 
-        System.out.println("Is the queue empty?: " + DataStructures.Queue.isEmpty());
-        System.out.println("Is the queue full?: " + DataStructures.Queue.isFull());
+        System.out.println("Is the queue empty?: " + DataStructures.Queues.Queue.isEmpty());
+        System.out.println("Is the queue full?: " + DataStructures.Queues.Queue.isFull());
 
-        DataStructures.Queue.enqueue(1);
-        DataStructures.Queue.enqueue(2);
-        DataStructures.Queue.enqueue(3);
+        DataStructures.Queues.Queue.enqueue(1);
+        DataStructures.Queues.Queue.enqueue(2);
+        DataStructures.Queues.Queue.enqueue(3);
         System.out.println("Front: " + Queue.front);
         System.out.println("Rear: " + Queue.rear);
 
-        DataStructures.Queue.printQueue();*/
+        DataStructures.Queues.Queue.printQueue();*/
+
+                                            //Deque
+        DataStructures.Queues.Deque.createDeque(3);
+
+        System.out.println("Is the queue empty?: " + DataStructures.Queues.Deque.isEmpty());
+        System.out.println("Is the queue full?: " + DataStructures.Queues.Deque.isFull());
+
+        /*DataStructures.Queues.Deque.enqueueFront(1);
+        System.out.println(DataStructures.Queues.Deque.queue[0]);
+        System.out.println(DataStructures.Queues.Deque.queue[1]);
+        System.out.println(DataStructures.Queues.Deque.queue[2]);
+        System.out.println("-------------------------------------");
+
+        DataStructures.Queues.Deque.enqueueFront(2);
+        System.out.println(DataStructures.Queues.Deque.queue[0]);
+        System.out.println(DataStructures.Queues.Deque.queue[1]);
+        System.out.println(DataStructures.Queues.Deque.queue[2]);
+        System.out.println("-------------------------------------");
+
+        DataStructures.Queues.Deque.enqueueFront(3);
+        System.out.println(DataStructures.Queues.Deque.queue[0]);
+        System.out.println(DataStructures.Queues.Deque.queue[1]);
+        System.out.println(DataStructures.Queues.Deque.queue[2]);
+        System.out.println("-------------------------------------");*/
+
+        DataStructures.Queues.Deque.enqueueRear(1);
+        System.out.println(DataStructures.Queues.Deque.queue[0]);
+        System.out.println(DataStructures.Queues.Deque.queue[1]);
+        System.out.println(DataStructures.Queues.Deque.queue[2]);
+        System.out.println("-------------------------------------");
+
+        DataStructures.Queues.Deque.enqueueRear(2);
+        System.out.println(DataStructures.Queues.Deque.queue[0]);
+        System.out.println(DataStructures.Queues.Deque.queue[1]);
+        System.out.println(DataStructures.Queues.Deque.queue[2]);
+        System.out.println("-------------------------------------");
+
+        DataStructures.Queues.Deque.enqueueRear(3);
+        System.out.println(DataStructures.Queues.Deque.queue[0]);
+        System.out.println(DataStructures.Queues.Deque.queue[1]);
+        System.out.println(DataStructures.Queues.Deque.queue[2]);
+        System.out.println("-------------------------------------");
+
+
+
+
+
+
 
 
 

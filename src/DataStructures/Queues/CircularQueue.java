@@ -1,4 +1,4 @@
-package DataStructures;
+package DataStructures.Queues;
 /**
  * A queue is a FIFO linear data structure just
  * like in real life. First in is first out.
@@ -13,7 +13,7 @@ package DataStructures;
  * -IO operations
  * -Call centers
  */
-public abstract class Queue {
+public abstract class CircularQueue {
     public static int array[];
     public static int front, rear;
     public static int sizeOfQueue, itemsInQueue;
