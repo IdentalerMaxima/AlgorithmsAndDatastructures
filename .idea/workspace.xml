@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cd3745d-c053-4e8f-b8f8-1918409712d9" name="Changes" comment="I want to kill myself">
+    <list default="true" id="6cd3745d-c053-4e8f-b8f8-1918409712d9" name="Changes" comment="I still want to kill myself">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DataStructures/Queues/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/Queues/Deque.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -68,7 +68,7 @@
       <workItem from="1655899039268" duration="4648000" />
       <workItem from="1656093751206" duration="1033000" />
       <workItem from="1656104747506" duration="1294000" />
-      <workItem from="1656156270928" duration="6070000" />
+      <workItem from="1656156270928" duration="9295000" />
     </task>
     <task id="LOCAL-00001" summary="Finished and tested stack data structure with javadoc.">
       <created>1655571981060</created>
@@ -119,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656093824937</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="I still want to kill myself">
+      <created>1656168973585</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656168973585</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +153,7 @@
     <MESSAGE value="Dequeues" />
     <MESSAGE value="Fixed enqueues" />
     <MESSAGE value="I want to kill myself" />
-    <option name="LAST_COMMIT_MESSAGE" value="I want to kill myself" />
+    <MESSAGE value="I still want to kill myself" />
+    <option name="LAST_COMMIT_MESSAGE" value="I still want to kill myself" />
   </component>
 </project>

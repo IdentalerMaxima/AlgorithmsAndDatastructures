@@ -45,10 +45,9 @@ public abstract class Deque {
 
     public static void enqueueFront(int toEnqueue) {
         if (!isFull()) {
-            if (rear == -1) {
-                rear = sizeOfQueue - 1;
-            }
-            if (front < 1) {
+            if (front == -1) {
+                front = rear = 0;
+            } else if (front == 0) {
                 front = sizeOfQueue - 1;
             } else {
                 front--;
@@ -61,10 +60,13 @@ public abstract class Deque {
 
     public static void enqueueRear(int toEnqueue) {
         if (!isFull()) {
-            if (front < 0) {
-                front = 0;
+            if (rear == -1) {
+                front = rear = 0;
+            } else if (rear == sizeOfQueue - 1) {
+                rear = 0;
+            } else {
+                rear++;
             }
-            rear = (rear + 1) % sizeOfQueue;
             queue[rear] = toEnqueue;
 
         } else {
@@ -73,30 +75,53 @@ public abstract class Deque {
     }
 
     public static void dequeueFront() {
-        front = (front + 1) % sizeOfQueue;
-        if (front == rear) {
-            front = rear = -1;
-        }
-    }
-
-    public static void dequeueRear() {
-        if (front == rear) {
-            front = rear = -1;
-        }
-        rear = (rear - 1) % sizeOfQueue;
-    }
-
-    public static void printDeque() {
         if (!isEmpty()) {
-            while (front != rear) {
-                System.out.println(queue[front]);
+            if (!isFull() && front == rear) {
+                front = rear = -1;
+            } else {
                 if (front == sizeOfQueue - 1) {
                     front = 0;
                 } else {
                     front++;
                 }
             }
+        } else {
+            System.out.println("Queue is empty");
+        }
+    }
+
+    public static void dequeueRear() {
+        if (!isEmpty()) {
+            if (!isFull() && rear == front) {
+                front = rear = -1;
+            } else {
+                if (rear == 0) {
+                    rear = sizeOfQueue - 1;
+                } else {
+                    rear--;
+                }
+            }
+        } else {
+            System.out.println("Queue is empty");
+        }
+    }
+
+    public static void printDeque() {
+        if (!(isEmpty())) {
+            while (front != rear) {
+                if (front == sizeOfQueue - 1) {
+                    System.out.println(queue[front]);
+                    front = 0;
+                } else {
+                    System.out.println(queue[front]);
+                    front++;
+                }
+            }
             System.out.println(queue[rear]);
+
+
+        } else {
+            System.out.println("Queue is empty");
         }
     }
 }

@@ -49,111 +49,39 @@ public class Main {
                                             //Deque
         DataStructures.Queues.Deque.createDeque(3);
 
-        //System.out.println("Is the queue empty?: " + DataStructures.Queues.Deque.isEmpty());
-        //System.out.println("Is the queue full?: " + DataStructures.Queues.Deque.isFull());
+        /*System.out.println( Deque.queue[0]);
+        System.out.println( Deque.queue[1]);
+        System.out.println( Deque.queue[2]);
 
-        /*DataStructures.Queues.Deque.enqueueFront(1);
-        System.out.println(DataStructures.Queues.Deque.queue[0]);
-        System.out.println(DataStructures.Queues.Deque.queue[1]);
-        System.out.println(DataStructures.Queues.Deque.queue[2]);
-        System.out.println("-------------------------------------");
-
-        DataStructures.Queues.Deque.enqueueFront(2);
-        System.out.println(DataStructures.Queues.Deque.queue[0]);
-        System.out.println(DataStructures.Queues.Deque.queue[1]);
-        System.out.println(DataStructures.Queues.Deque.queue[2]);
-        System.out.println("-------------------------------------");
-
-        DataStructures.Queues.Deque.enqueueFront(3);
-        System.out.println(DataStructures.Queues.Deque.queue[0]);
-        System.out.println(DataStructures.Queues.Deque.queue[1]);
-        System.out.println(DataStructures.Queues.Deque.queue[2]);
-        System.out.println("-------------------------------------");*/
+        DataStructures.Queues.Deque.printDeque();*/
 
         /*DataStructures.Queues.Deque.enqueueRear(1);
-        System.out.println(DataStructures.Queues.Deque.queue[0]);
-        System.out.println(DataStructures.Queues.Deque.queue[1]);
-        System.out.println(DataStructures.Queues.Deque.queue[2]);
-        System.out.println("-------------------------------------");
-
         DataStructures.Queues.Deque.enqueueRear(2);
-        System.out.println(DataStructures.Queues.Deque.queue[0]);
-        System.out.println(DataStructures.Queues.Deque.queue[1]);
-        System.out.println(DataStructures.Queues.Deque.queue[2]);
-        System.out.println("-------------------------------------");
-
         DataStructures.Queues.Deque.enqueueRear(3);
-        System.out.println(DataStructures.Queues.Deque.queue[0]);
-        System.out.println(DataStructures.Queues.Deque.queue[1]);
-        System.out.println(DataStructures.Queues.Deque.queue[2]);
-        System.out.println("-------------------------------------");
 
-        System.out.println(DataStructures.Queues.Deque.isEmpty());
-        System.out.println(DataStructures.Queues.Deque.isFull());
-
-        System.out.println(Deque.front);
-        System.out.println(Deque.rear);
-        System.out.println("-------------------------------------");*/
+        DataStructures.Queues.Deque.dequeueRear();
+        DataStructures.Queues.Deque.dequeueRear();
+        DataStructures.Queues.Deque.dequeueRear();
 
 
-        /*System.out.println("Front  = " + Deque.front);
-        System.out.println("Rear  = " + Deque.rear);
-        DataStructures.Queues.Deque.enqueueFront(1);
-        System.out.println("Front  = " + Deque.front);
-        System.out.println("Rear  = " + Deque.rear);
-        System.out.println(DataStructures.Queues.Deque.queue[0]);
-        System.out.println(DataStructures.Queues.Deque.queue[1]);
-        System.out.println(DataStructures.Queues.Deque.queue[2]);
-        System.out.println("-------------------------------------");
+        DataStructures.Queues.Deque.printDeque();*/
 
+        /*DataStructures.Queues.Deque.enqueueFront(1);
         DataStructures.Queues.Deque.enqueueFront(2);
-        System.out.println("Front  = " + Deque.front);
-        System.out.println("Rear  = " + Deque.rear);
-        System.out.println(DataStructures.Queues.Deque.queue[0]);
-        System.out.println(DataStructures.Queues.Deque.queue[1]);
-        System.out.println(DataStructures.Queues.Deque.queue[2]);
-        System.out.println("-------------------------------------");
-
         DataStructures.Queues.Deque.enqueueFront(3);
-        System.out.println("Front  = " + Deque.front);
-        System.out.println("Rear  = " + Deque.rear);
-        System.out.println(DataStructures.Queues.Deque.queue[0]);
-        System.out.println(DataStructures.Queues.Deque.queue[1]);
-        System.out.println(DataStructures.Queues.Deque.queue[2]);
-        System.out.println("-------------------------------------");
 
-        System.out.println(DataStructures.Queues.Deque.isEmpty());
-        System.out.println(DataStructures.Queues.Deque.isFull());
-        System.out.println("-------------------------------------");*/
-
-        System.out.println("Front  = " + Deque.front);
-        System.out.println("Rear  = " + Deque.rear);
-
-        DataStructures.Queues.Deque.enqueueFront(1);
-        System.out.println("added 1");
-        System.out.println("Front  = " + Deque.front);
-        System.out.println("Rear  = " + Deque.rear);
-        DataStructures.Queues.Deque.enqueueFront(2);
-        System.out.println("added 2");
-        System.out.println("Front  = " + Deque.front);
-        System.out.println("Rear  = " + Deque.rear);
-        DataStructures.Queues.Deque.enqueueFront(3);
-        System.out.println("added 3");
-        System.out.println("Front  = " + Deque.front);
-        System.out.println("Rear  = " + Deque.rear);
+        DataStructures.Queues.Deque.dequeueFront();
+        DataStructures.Queues.Deque.dequeueFront();
+        DataStructures.Queues.Deque.dequeueFront();
 
         DataStructures.Queues.Deque.printDeque();
+*/
 
-        /*System.out.println("Front  = " + Deque.front);
-        System.out.println("Rear  = " + Deque.rear);
-        DataStructures.Queues.Deque.dequeueFront();
-        DataStructures.Queues.Deque.dequeueFront();
-        System.out.println("--------------------------");
-        System.out.println(DataStructures.Queues.Deque.queue[0]);
-        System.out.println(DataStructures.Queues.Deque.queue[1]);
-        System.out.println(DataStructures.Queues.Deque.queue[2]);
-        System.out.println("Front  = " + Deque.front);
-        System.out.println("Rear  = " + Deque.rear);*/
+
+
+
+
+
 
 
 
